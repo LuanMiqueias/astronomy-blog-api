@@ -2,12 +2,13 @@
   "collectionName": "components_menu_menu_links",
   "info": {
     "name": "menuLink",
-    "icon": "bars"
+    "icon": "bars",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "link": {
-      "type": "text",
+      "type": "string",
       "required": true
     },
     "text": {

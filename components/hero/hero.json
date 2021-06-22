@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_hero_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "poll-h"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false,
+      "maxLength": 255
+    },
+    "subtitle": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "cover": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}
